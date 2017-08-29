@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>noobs_rules_20170829_vg_v1</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+</head>
+<body>
+<h1><span style="font-family:Papyrus; font-size:1em;">The Stark Realities of Reproducible Sociological Research</span> <br></h1>
+<h3>Professor Vernon Gayle, University of Edinburgh, UK. <br></h3>
+<p><br>
+<a href="&#x6d;&#x61;&#x69;&#108;&#x74;&#x6f;&#x3a;&#118;&#101;r&#110;&#x6f;&#x6e;&#46;&#103;&#x61;&#x79;&#108;&#x65;&#64;&#x65;&#x64;.&#97;&#x63;&#46;&#x75;&#107;">&#x76;&#x65;&#x72;&#x6e;&#111;&#x6e;&#46;&#103;&#x61;&#121;&#108;&#x65;&#x40;&#101;&#100;&#46;&#x61;&#99;&#46;&#x75;&#x6b;</a>  or <a href="https://twitter.com/profbigvern">@profbigvern</a>.  <br></p>
+<hr />
+<h2>GET OUT YOUR LAPTOP <br></h2>
+<h2>go to <span style="color:red">nbviewer.jupyter.org/</span></h2>
+<h2>type.... <br></h2>
+<h3><span style="color:red">https://github.com/vernongayle/new_rules_of_the_sociological_method/blob/master/noobs.ipynb</h3>
+<h2>The Reproducibility Checklist</h2>
+<p>Philip Stark outlines 14 reproducibility points that an analysis can fail on <br>
+<br></p>
+<p>http://www.bitss.org/2015/12/31/science-is-show-me-not-trust-me/ <br>
+<br></p>
+<p><font color=green> 1.	If you relied on Microsoft Excel for computations </font> <br>
+Excel was not used in this work.<br>
+<br>
+<font color=green> 2.	If you did not script your analysis, including data cleaning and munging</font><br>
+This is common in stratification research and quantitative sociology more generally.<br>
+<br>
+<font color=green>4.	If you did not record and report the versions of the software you used (including library dependencies)</font><br>
+I reported on the computing environment and data analysis software including library dependencies.<br>
+<br>
+<font color=green>5.	If you did not write tests for your code</font><br>
+I provided two code test, one for logistic regression and one for quasi-variance estimation, which are checked against published results.<br>
+<br>
+<font color=green>6.	If you did not check the code coverage of your tests</font><br>
+I did not write or use any new tests. <br>
+<br>
+<font color=green>7.	If you used proprietary software that does not have an open-source equivalent without a really good reason</font><br>
+The data enabling (i.e. wrangling and cleaning) and the analyses were undertaken in <em>R</em> which is an open-source software. <br>
+I also tried the analysis in Python, Stata and had to use SPSS in the duplication! <br>
+ <br>
+<font color=green>8.	If you did not report all the analyses you tried (transformations, tests, selections of variables, models, etc.) before arriving at the one you chose to emphasize</font><br>
+I reported on all the analyses including data transformations, tests, selections of variables, alternative models and failed activities. <br>
+<br>
+<font color=green>9.	If you did not make your code (including tests) available</font><br>
+Information on how the code is licensed is provided. The code is available using Github https://github.com/vernongayle .<br>
+<br>
+<font color=green>10.	If you did not make your data available (and a law like FERPA or HIPPA doesn’t prevent it)</font><br>
+The data cannot be made publically available but researchers can assess the data from the UK Data Service https://www.ukdataservice.ac.uk/ .<br>
+<br>
+<font color=green>11.	If you did not record and report the data format</font><br>
+A description of the research dataset and well as information on the data format and the time and date of the dowload are provided. <br>
+<br>
+<font color=green>12.	If there is no open-source tool for reading data in that format</font><br>
+The code to read the data, wrangle the data and produce all of the results is written in <em>R</em> which is open-source and is provided in a Jupyter notebook which is also open-source and is available using the open-source platform Github https://github.com/vernongayle. <br>
+<br>
+<font color=green>13.	If you did not provide an adequate data dictionary</font><br>
+A data dictionary (or codebook) is provided.<br>
+<br>
+<font color=green>14.	If you published in a journal with a paywall and no open-access policy</font><br>
+The work has not yet been published. But it will be available through the UK <font color=olive>green</font> open access policy via my university repository http://www.research.ed.ac.uk/portal/en/persons/vernon-gayle(682d7da1-a2ad-49f0-b36c-64478c658f99).html . <br></p>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
